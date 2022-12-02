@@ -1,6 +1,23 @@
 .container {
   padding: 0 2rem;
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items: baseline;
+  padding: 20px;
+}
+.navbar a {
+  color: rgb(146, 95, 255);
+  text-decoration: none;
+}
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+  color: rgb(218, 70, 255);
+  text-decoration: underline;
+}
 
 .main {
   min-height: 100vh;
